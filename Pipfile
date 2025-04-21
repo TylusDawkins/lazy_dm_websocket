@@ -15,4 +15,4 @@ websockets = "*"
 python_version = "3.13"
 
 [scripts]
-start = "uvicorn main:app --reload --port 8001 --app-dir src"
+start = "uvicorn websocket:app --reload --port 8001 --app-dir src"
